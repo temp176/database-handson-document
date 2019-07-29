@@ -43,16 +43,16 @@ postgres (PostgreSQL) 11.3
 GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．  
 URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)  
   
-Downloadリンクをクリック  
+##### 3-1 Downloadリンクをクリック  
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin1.png)
   
-OSを選択  
+##### 3-2 OSを選択  
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin2.png)
 
-最新バージョンを指定  
+##### 3-3 最新バージョンを指定  
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin3.png)
 
-実行ファイルをダウンロードしてインストール
+##### 3-4 実行ファイルをダウンロードしてインストール
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin4.png)
 
 #### 参考サイト

@@ -1,6 +1,6 @@
-## 【Windows】 PostgreSQLおよびPgAdmin4のインストール
+## 【Windows】 PostgreSQLおよびpgAdmin4のインストール
 
-### PostgreSQLおよびPgAdmin4のインストール
+### PostgreSQLおよびpgAdmin4のインストール
 #### 以下のURLから実行ファイルをダウンロードして実行する
 URL:[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)  
   
@@ -8,7 +8,7 @@ URL:[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https
 
 #### 画面の指示通りにインストール
 1. Installation Directory:デフォルトのまま
-1. Select Components：デフォルトのまま(PgAdmin4も一緒にインストールされる)
+1. Select Components：デフォルトのまま(pgAdmin4も一緒にインストールされる)
 1. Data Directory:デフォルトのまま
 1. Password/Retype password:管理ユーザ(postgres)のパスワードを設定する
 1. Port：デフォルト(5432)のまま

@@ -1,4 +1,4 @@
-## 【macOS】 PostgreSQLおよびPgAdminのインストール
+## 【macOS】 PostgreSQLおよびpgAdminのインストール
 ### 1. Homebrewのインストール
 パッケージマネージャの[Homebrew](https://brew.sh/index_ja)をインストールします．  
 すでにインストールしている人は飛ばしてください．  
@@ -41,8 +41,8 @@ postgres (PostgreSQL) 11.3
 ```
 echo 'export PGDATA="/usr/local/var/postgres"' >> ~/.bash_profile
 ```
-### 3. PgAdmin4のインストール
-GUIで管理できるツールであるPgAdmin4をインストールする．  
+### 3. pgAdmin4のインストール
+GUIで管理できるツールであるpgAdmin4をインストールする．  
 以下のコマンドをターミナルに貼り付けて実行する．
 ```
 brew cask install pgadmin4

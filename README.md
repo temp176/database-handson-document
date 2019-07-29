@@ -68,4 +68,3 @@ URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)
 
 ##### 3-4 実行ファイルをダウンロードしてインストール
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin4.png)
-]

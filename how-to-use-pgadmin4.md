@@ -48,6 +48,20 @@ Finder->アプリケーション->pgAdmin4.app
 3. 「Owner」の列に書かれている名前を「Username」としてみる
 
 ### 2-2 データベースの作成
+#### サーバーを右クリックして「Create」→「Database」をクリックする
+<img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create10.png" width="300">
+
+#### 「Database」にデータベース名を入力し、Saveボタンを押す
+<img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create11.png" width="300">
+
+#### データベースが作成されます
+<img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create12.png" width="300">
+
+### 2-3 テーブルの作成およびSQL文の実行
+#### 作成したデータベースを右クリック
+
+
 
 ## 参考サイト
 * [PostgreSQL pgAdmin 4の使い方(起動からデータ参照) | ITSakura](https://itsakura.com/pgadmin4-db-create)
+* [PostgreSQLでSQL実行までのチュートリアル - DEV Community 👩‍💻👨‍💻](https://dev.to/programmingmonky/postgresqlsql-3dja)

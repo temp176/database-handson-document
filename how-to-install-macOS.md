@@ -37,6 +37,10 @@ postgres --version
 ```
 postgres (PostgreSQL) 11.3
 ```
+以下のコマンドをターミナルに貼り付けてパスを設定する．  
+```
+echo 'export PGDATA="/usr/local/var/postgres"' >> ~/.bash_profile
+```
 ### 3. PgAdmin4のインストール
 GUIで管理できるツールであるPgAdmin4をインストールする．  
 以下のコマンドをターミナルに貼り付けて実行する．

@@ -2,11 +2,11 @@
 ## PostgreSQLおよびPgAdminのインストール
 ### macOSの場合
 #### Homebrewのインストール
-1. Launchpad->その他->ターミナルを起動
+1. Launchpad->その他->ターミナル を起動
 2. 以下のスクリプトをターミナルに貼り付けて実行
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+  ```
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
 #### PostgreSQLインストール
 #### PgAdminのインストール
 

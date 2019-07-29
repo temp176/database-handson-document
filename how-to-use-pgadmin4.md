@@ -24,7 +24,19 @@ Finder->アプリケーション->pgAdmin4.app
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin-password.png)
 
 ## 2. 使い方
-
+[こちらのサイト](https://itsakura.com/pgadmin4-db-create)を参考にしています．
+### 2-1 サーバの作成
+「Servers」を右クリックして「Create」->「Server」をクリックします．  
+![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create2.png)
+  
+「Name」にサーバー名を入力し．作成するサーバーが所属するサーバーグループ「Server group」を選択します．完了後，「Connection」タブをクリックします．
+![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create3.png)
+  
+「Host name/address」には「127.0.0.1」または「localhost」を指定する．  
+「Password」にはサーバーに接続する際のパスワードを入力する．
+「Save password」にチェックを入れると，このサーバーに再接続した時にパスワードを手入力せずに接続できる．
+「Save」を押して完了．
+![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create4.png)  
 
 ## 参考サイト
 * [PostgreSQL pgAdmin 4の使い方(起動からデータ参照) | ITSakura](https://itsakura.com/pgadmin4-db-create)

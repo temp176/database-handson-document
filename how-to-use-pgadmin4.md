@@ -58,7 +58,16 @@ Finder->アプリケーション->pgAdmin4.app
 <img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create12.png" width="300">
 
 ### 2-3 テーブルの作成およびSQL文の実行
-#### 作成したデータベースを右クリック
+#### 作成したデータベースを右クリックして「Query Tool」を選択
+<img src="https://github.com/temp176/database-handson-document/blob/master/image/sql1.png" width="300">
+
+#### 「Query Editor」タブにSQL文を入力
+例えば以下のテーブルを作成するSQL文を入力する．
+```
+CREATE TABLE Test(ID bigint PRIMARY KEY, col1 varchar, col2 varchar, col3 varchar);```
+```
+その後雷マークのボタンを押すことでSQL文を実行．  
+<img src="https://github.com/temp176/database-handson-document/blob/master/image/sql2.png" width="500">
 
 
 

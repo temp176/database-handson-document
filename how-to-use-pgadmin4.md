@@ -9,7 +9,7 @@ Launchpad->pgAdmin4
 Finder->アプリケーション->pgAdmin4.app  
 から起動してください．  
   
-また，起動時にパスワードの設定を求められるので入力してください．  
+また，起動時にパスワードの設定を求められると思うので入力してください．  
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin-password.png)
 
 ### 参考サイト

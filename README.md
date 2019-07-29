@@ -10,19 +10,25 @@
 ```
 xcode-select --install
 ```
-インストールが終了したら以下のコマンドをターミナルに貼り付けてインストールが成功したかを確認する．
+インストールが終了したら，以下のコマンドをターミナルに貼り付けてインストールが成功したかを確認する．
 ```
 xcode-select -v
 ```
+バージョンが表示されたらOK．
 
 ##### Homebrewをインストール
 以下のスクリプトをターミナルに貼り付けて実行する．
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
 #### 2. PostgreSQLインストール
-#### 3. gAdminのインストール
+以下のコマンドをターミナルに貼り付けて実行する．
+```
+brew update
+brew install postgresql
+```
+
+#### 3. PgAdminのインストール
 #### 参考サイト
 * [macOS 用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
 * [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)

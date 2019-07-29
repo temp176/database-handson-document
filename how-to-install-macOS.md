@@ -59,3 +59,4 @@ brew cask install pgadmin4
 * [【Mac&Homebrew】PostgreSQLのインストール方法とpgAdmin4を使った接続方法を丁寧に説明！ | 全人類がわかる統計学](https://to-kei.net/db/postgre-mac-install/)
 * [MacのRails5開発でPostgreSQL導入とエラー解決法 - INODEVLOG](https://www.inodev.jp/entry/mac-rails-postgresql)
 * [MacにPostgreSQLをインストール - Qiita](https://qiita.com/_daisuke/items/13996621cf51f835494b)
+* [dyld: Library not loaded: @rpath/libtinfo.6.dylib · Issue #14 · conda-forge/rabbitmq-server-feedstock](https://github.com/conda-forge/rabbitmq-server-feedstock/issues/14)

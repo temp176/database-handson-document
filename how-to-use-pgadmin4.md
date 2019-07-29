@@ -75,6 +75,14 @@ CREATE TABLE Test(ID bigint PRIMARY KEY, col1 varchar, col2 varchar, col3 varcha
 #### テーブルの内容を確認することができる
 <img src="https://github.com/temp176/database-handson-document/blob/master/image/sql4.png" width="500">
 
+#### 同様に他のSQL文も実行できる
+例えば以下のSQL文を「Query Editor」タブに入力し実行すると
+```
+INSERT INTO test(ID, col1, col2, col3) VALUES (1, '一列目', '二列目', '三列目')
+```
+テーブルにデータが追加されることがわかる
+<img src="https://github.com/temp176/database-handson-document/blob/master/image/sql5.png" width="500">
+
 
 ## 参考サイト
 * [PostgreSQL pgAdmin 4の使い方(起動からデータ参照) | ITSakura](https://itsakura.com/pgadmin4-db-create)

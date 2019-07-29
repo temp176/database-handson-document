@@ -1,21 +1,28 @@
 # database-handson-document
 ## PostgreSQLおよびPgAdminのインストール
 ### macOSの場合
-#### Homebrewのインストール
-パッケージマネージャの[Homebrew](https://brew.sh/index_ja)をインストールします．
+#### 1. Homebrewのインストール
+パッケージマネージャの[Homebrew](https://brew.sh/index_ja)をインストールします．  
+すでにインストールしている人は飛ばしてください．  
 ##### Launchpad->その他->ターミナル を起動
-##### 以下のコマンドをターミナルに貼り付けて実行：XcodeのCommand Line Toolsをインストール
+##### XcodeのCommand Line Toolsをインストール
+以下のコマンドをターミナルに貼り付けて実行する．
 ```
 xcode-select --install
 ```
-1. 以下のコマンドをターミナルに貼り付けて実行：XcodeのCommand Line Toolsのインストールを確認
+インストールが終了したら以下のコマンドをターミナルに貼り付けてインストールが成功したかを確認する．
+```
+xcode-select -v
+```
 
-1. 以下のスクリプトをターミナルに貼り付けて実行：Homebrewをインストール
-  ```
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  ```
-#### PostgreSQLインストール
-#### PgAdminのインストール
+##### Homebrewをインストール
+以下のスクリプトをターミナルに貼り付けて実行する．
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+#### 2. PostgreSQLインストール
+#### 3. gAdminのインストール
 #### 参考サイト
 * [macOS 用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
 * [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)

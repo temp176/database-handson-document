@@ -13,7 +13,6 @@ postgres -D /usr/local/var/postgres
 ### Windowsの場合
 スタートメニューから起動してください．  
 ![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create1.png)  
-
 ### macOSの場合
 Launchpad->pgAdmin4  
 もしくは  
@@ -21,22 +20,34 @@ Finder->アプリケーション->pgAdmin4.app
 から起動してください．  
   
 また，起動時にパスワードの設定を求められると思うので入力してください．  
-![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin-password.png)
+<img src="https://github.com/temp176/database-handson-document/blob/master/image/pgadmin-password.png" width="500">
 
 ## 2. 使い方
 [こちらのサイト](https://itsakura.com/pgadmin4-db-create)を参考にしています．
 ### 2-1 サーバの作成
-「Servers」を右クリックして「Create」->「Server」をクリックします．  
-![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create2.png)
+#### 「Servers」を右クリックして「Create」->「Server」をクリックします．  
+<img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create2.png" width="500">
   
-「Name」にサーバー名を入力し．作成するサーバーが所属するサーバーグループ「Server group」を選択します．完了後，「Connection」タブをクリックします．
-![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create3.png)
-  
+#### 「Name」にサーバー名を入力し．作成するサーバーが所属するサーバーグループ「Server group」を選択します．  
+完了後，「Connection」タブをクリックします．  
+<img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create3.png" width="500">
+ 
+#### Connectionタブ
 「Host name/address」には「127.0.0.1」または「localhost」を指定する．  
-「Password」にはサーバーに接続する際のパスワードを入力する．
-「Save password」にチェックを入れると，このサーバーに再接続した時にパスワードを手入力せずに接続できる．
-「Save」を押して完了．
-![](https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create4.png)  
+「Password」にはサーバーに接続する際のパスワードを入力する．  
+「Save password」にチェックを入れると，このサーバーに再接続した時にパスワードを手入力せずに接続できる．  
+「Save」を押して完了．  
+<img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create4.png" width="500">
+
+#### macOSで「FATAL: role "postgres" does not exist」となる場合  
+「Username」を自分の名前にしてみる．  
+  
+##### 名前の確認方法
+1. サーバを起動しているターミナルとは別のターミナルを開く
+2. ターミナルで```psql -l```を実行する
+3. 「Owner」の列に書かれている名前の「Username」としてみる
+
+
 
 ## 参考サイト
 * [PostgreSQL pgAdmin 4の使い方(起動からデータ参照) | ITSakura](https://itsakura.com/pgadmin4-db-create)

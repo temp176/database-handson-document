@@ -47,7 +47,7 @@ Finder->アプリケーション->pgAdmin4.app
 2. ターミナルで```psql -l```を実行する
 3. 「Owner」の列に書かれている名前を「Username」としてみる
 
-
+### 2-2 データベースの作成
 
 ## 参考サイト
 * [PostgreSQL pgAdmin 4の使い方(起動からデータ参照) | ITSakura](https://itsakura.com/pgadmin4-db-create)

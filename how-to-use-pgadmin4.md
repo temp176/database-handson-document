@@ -64,7 +64,7 @@ Finder->アプリケーション->pgAdmin4.app
 #### 「Query Editor」タブにSQL文を入力
 例えば以下のテーブルを作成するSQL文を入力する．
 ```
-CREATE TABLE Test(ID bigint PRIMARY KEY, col1 varchar, col2 varchar, col3 varchar);```
+CREATE TABLE Test(ID bigint PRIMARY KEY, col1 varchar, col2 varchar, col3 varchar);
 ```
 #### その後雷マークのボタンを押すことでSQL文を実行． 
 <img src="https://github.com/temp176/database-handson-document/blob/master/image/sql2.png" width="500">

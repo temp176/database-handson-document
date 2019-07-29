@@ -1,5 +1,9 @@
 ## 【Windows】 PostgreSQLおよびPgAdminのインストール
 
+### 1. PostgreSQLのインストール
+以下のURLから実行ファイルをダウンロードする．  
+URL:[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)  
+
 
 
 ### 参考サイト

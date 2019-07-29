@@ -6,7 +6,7 @@ URL:[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https
   
 ![](https://github.com/temp176/database-handson-document/blob/master/image/psql1.png)
 
-#### 画面の指示通りにインストール
+#### 画面の指示通りにインストールを進める：設定は以下を参考に
 1. Installation Directory:デフォルトのまま
 1. Select Components：デフォルトのまま(pgAdmin4も一緒にインストールされる)
 1. Data Directory:デフォルトのまま

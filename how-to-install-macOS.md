@@ -57,3 +57,4 @@ brew cask install pgadmin4
 * [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)
 * [pgAdmin - PostgreSQL Tools](https://www.pgadmin.org/)
 * [【Mac&Homebrew】PostgreSQLのインストール方法とpgAdmin4を使った接続方法を丁寧に説明！ | 全人類がわかる統計学](https://to-kei.net/db/postgre-mac-install/)
+* [MacのRails5開発でPostgreSQL導入とエラー解決法 - INODEVLOG](https://www.inodev.jp/entry/mac-rails-postgresql)

@@ -83,6 +83,10 @@ INSERT INTO test(ID, col1, col2, col3) VALUES (1, '一列目', '二列目', '三
 テーブルにデータが追加されることがわかる  
 <img src="https://github.com/temp176/database-handson-document/blob/master/image/sql5.png" width="500">
 
+### その他
+* CREATE VIEWなどで作成したViewは「Tables」の3つ下にある「Views」からテーブル内容と同様の方法で確認できます
+* SQL文の実行が成功したにも関わらず結果が更新されない場合は，「Tables」などを右クリックした際に出てくる「Refresh...」などを試してみる
+
 
 ## 参考サイト
 * [PostgreSQL pgAdmin 4の使い方(起動からデータ参照) | ITSakura](https://itsakura.com/pgadmin4-db-create)

@@ -36,11 +36,24 @@ postgres --version
 postgres (PostgreSQL) 11.3
 ```
 #### 3. PgAdmin4のインストール
-GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．
+GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．  
 URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)  
+  
+Downloadリンクをクリック  
+![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin1.png)
+  
+OSを選択  
+![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin2.png)
 
+最新バージョンを指定  
+![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin3.png)
+
+実行ファイルをダウンロードしてインストール
+![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin4.png)
 
 #### 参考サイト
 * [macOS 用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
 * [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)
+* [pgAdmin - PostgreSQL Tools](https://www.pgadmin.org/)
+
 ### Windowsの場合

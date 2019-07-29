@@ -40,7 +40,7 @@ postgres --version
 postgres (PostgreSQL) 11.3
 ```
 #### 3. PgAdmin4のインストール
-GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．  
+GUIで管理できるツールであるPgAdmin4をインストールする．  
 以下のコマンドをターミナルに貼り付けて実行する．
 ```
 brew cask install pgadmin4

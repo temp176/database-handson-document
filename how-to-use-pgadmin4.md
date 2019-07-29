@@ -66,9 +66,14 @@ Finder->アプリケーション->pgAdmin4.app
 ```
 CREATE TABLE Test(ID bigint PRIMARY KEY, col1 varchar, col2 varchar, col3 varchar);```
 ```
-その後雷マークのボタンを押すことでSQL文を実行．  
+#### その後雷マークのボタンを押すことでSQL文を実行． 
 <img src="https://github.com/temp176/database-handson-document/blob/master/image/sql2.png" width="500">
 
+#### 「Schemas」->「Tabeles」->「Test（作成したテーブル名）」を右クリックし，「Viwe/Edit Data」の「All Rows」を選択
+<img src="https://github.com/temp176/database-handson-document/blob/master/image/sql3.png" width="500">
+
+#### テーブルの内容を確認することができる
+<img src="https://github.com/temp176/database-handson-document/blob/master/image/sql4.png" width="500">
 
 
 ## 参考サイト

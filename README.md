@@ -14,7 +14,11 @@ xcode-select --install
 ```
 xcode-select -v
 ```
-バージョンが表示されたらOK．
+バージョンが表示されたらOK．  
+表示例：  
+```
+xcode-select version 2354.
+```
 
 ##### Homebrewをインストール
 以下のスクリプトをターミナルに貼り付けて実行する．

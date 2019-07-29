@@ -41,8 +41,22 @@ postgres (PostgreSQL) 11.3
 ```
 #### 3. PgAdmin4のインストール
 GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．  
+以下のコマンドをターミナルに貼り付けて実行する．
+```
+brew cask install pgadmin4
+```
+
+#### 参考サイト
+* [macOS 用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
+* [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)
+* [pgAdmin - PostgreSQL Tools](https://www.pgadmin.org/)
+
+### Windowsの場合
+
+
+#### 3. PgAdmin4のインストール
+GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．  
 URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)  
-  
 ##### 3-1 Downloadリンクをクリック  
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin1.png)
   
@@ -54,10 +68,4 @@ URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)
 
 ##### 3-4 実行ファイルをダウンロードしてインストール
 ![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin4.png)
-
-#### 参考サイト
-* [macOS 用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
-* [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)
-* [pgAdmin - PostgreSQL Tools](https://www.pgadmin.org/)
-
-### Windowsの場合
+]

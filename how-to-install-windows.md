@@ -1,24 +1,20 @@
-## 【Windows】 PostgreSQLおよびPgAdminのインストール
+## 【Windows】 PostgreSQLおよびPgAdmin4のインストール
 
-### 1. PostgreSQLのインストール
-以下のURLから実行ファイルをダウンロードする．  
+### PostgreSQLおよびPgAdmin4のインストール
+#### 以下のURLから実行ファイルをダウンロードして実行する
 URL:[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)  
+![](https://github.com/temp176/database-handson-document/blob/master/image/psql1.png)
 
+#### 画面の指示通りにインストール
+1. Installation Directory:デフォルトのまま
+1. Select Components：デフォルトのまま(PgAdmin4も一緒にインストールされる)
+1. Data Directory:デフォルトのまま
+1. Password/Retype password:管理ユーザ(postgres)のパスワードを設定する
+1. Port：デフォルト(5432)のまま
+1. Locale:「C」に設定する
 
 
 ### 参考サイト
-
-### 3. PgAdmin4のインストール
-GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．  
-URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)  
-#### 3-1 Downloadリンクをクリック  
-![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin1.png)
-  
-#### 3-2 OSを選択  
-![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin2.png)
-
-#### 3-3 最新バージョンを指定  
-![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin3.png)
-
-#### 3-4 実行ファイルをダウンロードしてインストール
-![](https://github.com/temp176/database-handson-document/blob/master/image/pgadmin4.png)
+* [PostgreSQL Database Download | EnterpriseDB](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows)
+* [Windows10にPostgreSQL9.5をインストール／アンインストールする - Qiita](https://qiita.com/minr/items/1078181c5723da8db17e)
+* [WindowsでPostgreSQLを使ってみよう | Let's Postgres](https://lets.postgresql.jp/documents/tutorial/windows/)

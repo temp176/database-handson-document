@@ -21,7 +21,7 @@ xcode-select -v
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-#### 2. PostgreSQLインストール
+#### 2. PostgreSQLのインストール
 以下のコマンドをターミナルに貼り付けて実行する．
 ```
 brew update

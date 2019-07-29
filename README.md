@@ -27,8 +27,19 @@ xcode-select -v
 brew update
 brew install postgresql
 ```
+インストールが終わったら以下のコマンドをターミナルに貼り付けてインストールが成功したかを確認する．
+```
+postgres --version
+```
+表示例：
+```
+postgres (PostgreSQL) 11.3
+```
+#### 3. PgAdmin4のインストール
+GUIで管理できるツールであるPgAdmin4を以下のURLからインストールする．
+URL:[https://www.pgadmin.org/](https://www.pgadmin.org/)  
 
-#### 3. PgAdminのインストール
+
 #### 参考サイト
 * [macOS 用パッケージマネージャー — Homebrew](https://brew.sh/index_ja)
 * [Homebrew のインストールと基本的な使い方 - yu8mada](https://yu8mada.com/2018/04/12/homebrew-s-installation-and-basic-usage/#article-title)

@@ -4,8 +4,8 @@
 #### 1. Homebrewのインストール
 パッケージマネージャの[Homebrew](https://brew.sh/index_ja)をインストールします．  
 すでにインストールしている人は飛ばしてください．  
-##### Launchpad->その他->ターミナル を起動
-##### XcodeのCommand Line Toolsをインストール
+##### 1-1 Launchpad->その他->ターミナル を起動
+##### 1-2 XcodeのCommand Line Toolsをインストール
 以下のコマンドをターミナルに貼り付けて実行する．
 ```
 xcode-select --install
@@ -20,7 +20,7 @@ xcode-select -v
 xcode-select version 2354.
 ```
 
-##### Homebrewをインストール
+##### 1-3 Homebrewをインストール
 以下のスクリプトをターミナルに貼り付けて実行する．
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

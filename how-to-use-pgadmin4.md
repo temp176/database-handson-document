@@ -80,7 +80,7 @@ CREATE TABLE Test(ID bigint PRIMARY KEY, col1 varchar, col2 varchar, col3 varcha
 ```
 INSERT INTO test(ID, col1, col2, col3) VALUES (1, '一列目', '二列目', '三列目')
 ```
-テーブルにデータが追加されることがわかる
+テーブルにデータが追加されることがわかる  
 <img src="https://github.com/temp176/database-handson-document/blob/master/image/sql5.png" width="500">
 
 

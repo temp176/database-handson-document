@@ -44,7 +44,9 @@ echo 'export PGDATA="/usr/local/var/postgres"' >> ~/.bash_profile
 データベースを初期化  
 ```
 initdb /usr/local/var/postgres -E utf8
-```
+```  
+終わったら一度ターミナルを開き直してください．  
+  
 ### 3. pgAdmin4のインストール
 GUIで管理できるツールであるpgAdmin4をインストールする．  
 以下のコマンドをターミナルに貼り付けて実行する．

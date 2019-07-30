@@ -31,11 +31,11 @@ brew install postgresql
 ```
 インストールが終わったら以下のコマンドをターミナルに貼り付けてインストールが成功したかを確認する．
 ```
-postgres --version
+psql --version
 ```
 表示例：
 ```
-postgres (PostgreSQL) 11.3
+psql (PostgreSQL) 11.3
 ```
 以下のコマンドをターミナルに貼り付けてパスを設定する．  
 ```

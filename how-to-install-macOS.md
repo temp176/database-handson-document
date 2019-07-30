@@ -48,7 +48,7 @@ initdb /usr/local/var/postgres -E utf8
 終わったら一度ターミナルを開き直してください．  
   
 ### 3. pgAdmin4のインストール
-GUIで管理できるツールであるpgAdmin4をインストールすします．
+GUIで管理できるツールであるpgAdmin4をインストールします．
 以下のコマンドをターミナルに貼り付けて実行する．
 ```
 brew cask install pgadmin4

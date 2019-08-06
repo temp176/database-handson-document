@@ -19,11 +19,11 @@ Launchpad->pgAdmin4
 Finder->アプリケーション->pgAdmin4.app  
 から起動してください．  
   
-また，起動時にパスワードの設定を求められると思うので入力してください．  
+また，起動時にパスワードの設定を求められると思うので入力してください．  （覚えておいてください）
 <img src="https://github.com/temp176/database-handson-document/blob/master/image/pgadmin-password.png" width="500">
 
 ## 2. 使い方
-[こちらのサイト](https://itsakura.com/pgadmin4-db-create)を参考・引用しています．
+[こちらのサイト](https://itsakura.com/pgadmin4-db-create)を一部参考・引用しています．
 ### 2-1 サーバの作成
 #### 「Servers」を右クリックして「Create」->「Server」をクリックします．  
 <img src="https://itsakura.com/wp-content/uploads/2019/03/pgadmin4-db-create2.png" width="500">

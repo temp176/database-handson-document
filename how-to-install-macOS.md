@@ -1,7 +1,7 @@
 ## 【macOS】 PostgreSQLおよびpgAdminのインストール
 ### 1. Homebrewのインストール
 パッケージマネージャの[Homebrew](https://brew.sh/index_ja)をインストールします．  
-すでにインストールしている人は飛ばしてください．  
+※すでにインストールしている人は飛ばしてください．  
 #### 1-1 Launchpad->その他->ターミナル を起動
 #### 1-2 XcodeのCommand Line Toolsをインストール
 以下のコマンドをターミナルに貼り付けて実行する．

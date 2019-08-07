@@ -49,6 +49,7 @@ FROM ワイン;
 
 Q3.8
 ```
+SELECT 色, タイプ, MAX(価格) AS 最高価格 FROM ワイン GROUP BY 色, タイプ ORDER BY 最高価格 DESC;
 ```
 
 演習２（準備）  

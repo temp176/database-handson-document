@@ -118,3 +118,7 @@ NATURAL JOIN セット内容
 INNER JOIN ワインセット USING (セットID)
 WHERE NOT 国名='フランス' AND セットID = WS.セットID);
 ```
+Q4.4
+```
+SELECT * FROM ワイン AS W FULL OUTER JOIN AOC 品質ワイン AS AW USING (ワインID) WHERE W.ビンテージ >= 1998 OR AW.ビンテージ >= 1998;
+```

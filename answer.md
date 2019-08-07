@@ -20,3 +20,8 @@ Q3.3
 ```
 CREATE VIEW デイリーワイン(名前, 産地, ビンテージ, 価格) AS SELECT 名前,産地,ビンテージ,価格 FROM ワイン WHERE 価格 < 3000;
 ```
+
+Q3.4
+```
+CREATE VIEW 白ワイン(名前, 産地, ビンテージ, 価格) AS SELECT 名前, 産地, ビンテージ,価格 FROM ワイン WHERE 色 = '白';
+```

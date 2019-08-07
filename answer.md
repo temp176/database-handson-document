@@ -30,3 +30,8 @@ Q3.5
 ```
 SELECT * FROM デイリーワイン EXCEPT (SELECT * FROM 白ワイン);
 ```
+
+Q3.6  
+```
+SELECT ワインID FROM ワイン WHERE 名前 LIKE 'シャ__';
+```

@@ -122,3 +122,7 @@ Q4.4
 ```
 SELECT * FROM ワイン AS W FULL OUTER JOIN AOC 品質ワイン AS AW USING (ワインID) WHERE W.ビンテージ >= 1998 OR AW.ビンテージ >= 1998;
 ```
+Q4.5
+```
+UPDATE AOC 品質ワイン SET 価格 = 価格 * 1.3 WHERE ビンテージ = 2003;
+```

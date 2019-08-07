@@ -35,3 +35,14 @@ Q3.6
 ```
 SELECT ワインID FROM ワイン WHERE 名前 LIKE 'シャ__';
 ```
+
+Q3.7  
+```
+SELECT *, CASE
+WHEN 価格 < 3000 THEN 'デイリー'
+WHEN 価格 >= 3000 AND 価格 < 4000 THEN '中級'
+WHEN 価格 >= 5000 THEN '高級'
+ELSE '不明'
+END AS カテゴリ
+FROM ワイン;
+```

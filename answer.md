@@ -25,3 +25,8 @@ Q3.4
 ```
 CREATE VIEW 白ワイン(名前, 産地, ビンテージ, 価格) AS SELECT 名前, 産地, ビンテージ,価格 FROM ワイン WHERE 色 = '白';
 ```
+
+Q3.5
+```
+SELECT * FROM デイリーワイン EXCEPT (SELECT * FROM 白ワイン);
+```

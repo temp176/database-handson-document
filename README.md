@@ -1,4 +1,5 @@
 # database-handson-document
+PostgreSQLおよびpgAdmin4の環境構築と演習のための資料
 ## PostgreSQLおよびpgAdmin4のインストール
 PostgreSQLとGUIでの操作を可能にするpgAdmin4を使用します．  
 以下のリンク先を参考にインストールを行なってください．  
